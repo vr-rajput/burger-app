@@ -1,0 +1,23 @@
+{
+  "name": "burger-app",
+  "version": "1.0.0",
+  "description": "A burger builder application using MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start --prefix frontend\" \"npm run start --prefix backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vr-rajput/burger-app.git"
+  },
+  "author": "Veekesh Rajput",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vr-rajput/burger-app/issues"
+  },
+  "homepage": "https://github.com/vr-rajput/burger-app#readme",
+  "dependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
